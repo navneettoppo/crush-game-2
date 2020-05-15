@@ -70,7 +70,7 @@ return item[n];
 }
 
 function filter_array(arr, l){
-  return arr[l]
+  return arr[l];
 }
 
 function player_next(n){

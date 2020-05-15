@@ -1,0 +1,14 @@
+
+
+##Some Click animation {fireworks, pulse, heart rain,}
+
+
+Features
+
+====
+
+1. canvas.onMouseMovement => Heart trail behind mouse pointer wherever it moves.
+2. Add shooting stars in background every x time.
+3. button.onClick =>animation: button turns into a heart and back to a button
+
+===
