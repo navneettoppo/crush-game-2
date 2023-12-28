@@ -125,7 +125,6 @@ body {
 }
 
 .player-container{
-  backdrop-filter: blur(10px);
   padding: 60px;
 }
 
