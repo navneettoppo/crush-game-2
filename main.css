@@ -11,7 +11,7 @@ body {
   background-repeat-y: no-repeat;
 }
 #main_display {
-  backdrop-filter: blur(10px); /* Add this for the glassmorphism effect */
+  backdrop-filter: blur(20px); /* Add this for the glassmorphism effect */
   box-shadow: 5px 10px 20px 10px rgba(204,204,204,0.1);
   position: relative;
   top:0px;
@@ -24,7 +24,7 @@ body {
 /* ... rest of your CSS ... */
 
 #control_panel {
-  backdrop-filter: blur(10px); /* Add this for the glassmorphism effect */
+  backdrop-filter: blur(5px); /* Add this for the glassmorphism effect */
   background-color: rgba(255, 255, 255, 0.7); /* Make the background semi-transparent */
   padding:  10%;
   padding-top:0;
@@ -103,7 +103,7 @@ body {
 
 
 .ans-box {
-  height: 600px;
+  height: 500px;
   border: 1px solid #ccc;
   margin-top: 30px;
    font-size: 20px;
@@ -124,7 +124,7 @@ body {
 }
 
 .player-container{
-  
+  backdrop-filter: blur(10px);
   padding: 60px;
 }
 
