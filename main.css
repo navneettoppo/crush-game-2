@@ -197,39 +197,3 @@ body {
     background-color: var(--primary-color);
   }
 }
-
-@media (min-width: 576px) {
-  /* Styles for screens that are ≥576px wide */
-  /* Example: */
-  ._logo {
-    height: var(--logo-dimensions);
-    width: var(--logo-dimensions);
-  }
-}
-
-@media (min-width: 768px) {
-  /* Styles for screens that are ≥768px wide */
-  /* Example: */
-  ._logo {
-    height: calc(var(--logo-dimensions) * 1.2);
-    width: calc(var(--logo-dimensions) * 1.2);
-  }
-}
-
-@media (min-width: 992px) {
-  /* Styles for screens that are ≥992px wide */
-  /* Example: */
-  ._logo {
-    height: calc(var(--logo-dimensions) * 1.4);
-    width: calc(var(--logo-dimensions) * 1.4);
-  }
-}
-
-@media (min-width: 1200px) {
-  /* Styles for screens that are ≥1200px wide */
-  /* Example: */
-  ._logo {
-    height: calc(var(--logo-dimensions) * 1.6);
-    width: calc(var(--logo-dimensions) * 1.6);
-  }
-}
