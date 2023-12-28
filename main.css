@@ -6,7 +6,7 @@
   --control-btn-dimensions: 65px;
 }
 body {
-  background-image: url("Images/bg_img.jpg");
+  background-image: url("Images/silhouetted-couple-sit-bench-autumn-tree-generative-ai.jpg");
   background-size: contain;
   background-repeat-y: no-repeat;
 }
@@ -15,7 +15,7 @@ body {
   box-shadow: 5px 10px 20px 10px rgba(204,204,204,0.1);
   position: relative;
   top:0px;
-  background-image: url("Images/bg_img.jpg");
+  background-image: url("Images/silhouetted-couple-sit-bench-autumn-tree-generative-ai.jpg");
   background-size: contain;
   border-radius: 30px;
   padding: 0 35px;
