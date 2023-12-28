@@ -7,8 +7,10 @@
 }
 body {
   background-image: url("Images/silhouetted-couple-sit-bench-autumn-tree-generative-ai.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat-y: no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #main_display {
   backdrop-filter: blur(20px); /* Add this for the glassmorphism effect */
