@@ -1,6 +1,4 @@
-// The URL of your published Google Sheet CSV.
-var itemsUrl = 'https://docs.google.com/spreadsheets/d/1e1K0k_pKKrO801hqFrTPRVq26eSSm0UtABQqaprm3ig/';
-
+var itemsUrl = 'https://docs.google.com/spreadsheets/d/1e1K0k_pKKrO801hqFrTPRVq26eSSm0UtABQqaprm3ig/gviz/tq?tqx=out:json';
 var filtered = [];
 var n = 0;
 
@@ -18,7 +16,10 @@ window.onload = function() {
         .then(response => response.text())
         .then(data => {
             // Parse the CSV data into an array.
-            items = data.split('\n');
+            var json = JSON.parse(data.substring(47).slice(0, -2));
+            json.table.rows.forEach(row => {
+                items.push(row.c[0].v);
+            });
             console.log(items);
         })
         .catch(error => console.error('Error:', error));
