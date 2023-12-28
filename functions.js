@@ -1,5 +1,5 @@
 // The URL of your published Google Sheet CSV.
-var itemsUrl = 'https://drive.google.com/file/d/1B0hX_lK3fowD2vWcdocq38kiu04aCV3L/view';
+var itemsUrl = 'https://docs.google.com/spreadsheets/d/1e1K0k_pKKrO801hqFrTPRVq26eSSm0UtABQqaprm3ig/';
 
 var filtered = [];
 var n = 0;
