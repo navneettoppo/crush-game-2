@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="main.css"  >
+  </head>
+  
+ <body>
+   <div class ="containter">
+     <div class= "row">
+     <div class="col-4">
+       <div class="player-container">
+       <div id="player-1" class="player-name">
+         <h3 style="color:#002332;" > Nav </h3>
+       </div>
+        
+       </div>
+     </div>
+       <div class="col-4" id="main_display" >
+<div id="control_panel">
+        <div class="img-container">
+          <img class="_logo"src="/images/logo.png" alt="Logo with pink background an illustration of a wine glass and the words date night" >
+          <div class="heart"></div> 
+       
+      </div>
+      <div class="row ">
+        <div class="col-4">
+          <button  id="btn-prev" class="btn btn-lg btn-primary btn-block btn-control btn-ctrl"> << </button>
+        </div>
+        <div class="col-4" style="text-align: center;">
+          <button id="btn-restart" class="btn btn-lg btn-primary btn-block btn-control btn-ctrl" > RESTART </button>
+        </div>
+        <div class="col-4">
+          <button  id="btn-next" class="btn btn-lg btn-primary btn-block btn-control btn-ctrl"> >> </button>
+        </div>
+         
+      </div>
+       <div class= "col-12 ans-box" id="answ">
+         
+       </div>
+      
+    </div>        
+     </div>
+       <div class="col-4">
+        <div class="player-container">
+        <div id="player-2" class="player-name">
+          <h3 style= "color: pink;"> Ki </h3>
+       </div>
+       
+     </div>
+     </div>
+   </div>
+   <script src="functions.js"></script>
+  </body>
+  
+</html>

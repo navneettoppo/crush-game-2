@@ -4,26 +4,28 @@
   --heart-dimensions: 50px;
   --logo-dimensions: 200px;
   --control-btn-dimensions: 65px;
-
 }
-body{
-  background-image: url("/images/bg_img.jpg");
+body {
+  background-image: url("/Images/bg_img.jpg");
   background-size: contain;
   background-repeat-y: no-repeat;
 }
 #main_display {
-
+  backdrop-filter: blur(10px); /* Add this for the glassmorphism effect */
   box-shadow: 5px 10px 20px 10px rgba(204,204,204,0.1);
   position: relative;
   top:0px;
-  background-image: url("/images/bg_img.jp");
+  background-image: url("/Images/bg_img.jpg");
   background-size: contain;
   border-radius: 30px;
   padding: 0 35px;
 }
 
-#control_panel{
-  background-color: #FFFFFF;
+/* ... rest of your CSS ... */
+
+#control_panel {
+  backdrop-filter: blur(10px); /* Add this for the glassmorphism effect */
+  background-color: rgba(255, 255, 255, 0.7); /* Make the background semi-transparent */
   padding:  10%;
   padding-top:0;
   margin-top:40px;
